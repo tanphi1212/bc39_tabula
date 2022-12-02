@@ -1,0 +1,37 @@
+#list_teacher{
+    position: relative;
+    padding-top: 30px;
+    background-color: $bg-3;
+    .card{
+        border-radius: 10px;
+        overflow: hidden;
+        border: transparent;
+        z-index: 2;
+        .card-body{
+            
+            p:first-child{
+                @include styleText(11.25px, 500, #b61984);
+                margin-bottom: 0.7em
+            }
+            .card-title{
+                @include styleText(1.55rem, 600, #191919);
+            }
+            .card-text{
+                @include styleText(15px, 500, #181818);
+            }
+        }
+        &:hover{
+            box-shadow: 0 30px 30px -10px #00000033;
+        }
+    }
+    .list_teacher-bg{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        img{
+            width: 100%;
+        }
+    }
+}

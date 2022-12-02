@@ -1,0 +1,85 @@
+#course{
+    position: relative;
+    padding-top: 60px;
+    .course-img{
+        img{
+           max-width: 100%;
+           height: auto;
+        }
+    }
+    .course_content{
+        background-color: $bg-2;
+        box-shadow: 0 30px 30px -10px #00000033;
+        padding: 0 25px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .form-input{
+            margin-top: 50px;
+            position: relative;
+            i{
+                color: $test-color-3;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 1em;
+            }
+            input{
+                font-size: 0.8em;
+                line-height: 0.8;
+                border-radius: 20px;
+                padding: 12px 12px 12px 42px;
+            }
+        }
+        .form-select{
+            margin: 15px 0;
+            position: relative;
+            i{
+                color: $test-color-3;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 1em;
+            }
+            select{
+                font-size: 0.8em;
+                line-height: 0.8;
+                border-radius: 20px;
+                padding: 0px 0px 0px 42px;
+            }
+            
+        }
+        .form-text{
+            position: relative;
+            margin: 0 15px;
+            i{
+                color: $test-color-3;
+                position: absolute;
+                top: 1em;
+                left: 1em;
+            }
+            textarea{
+                border-radius: 20px;
+                width: 100%;
+                font-size: 0.8em;
+                padding: 1em 1em 1em 3.5em !important
+            }
+        }
+        button{
+            margin-top: 45px;
+        }
+        
+
+    }
+    .course-bg{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        img{
+            width: 100%;
+        }
+    }
+}

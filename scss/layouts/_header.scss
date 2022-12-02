@@ -1,0 +1,39 @@
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    .navbar-brand {
+        img {
+            height: 80px;
+            width: 80px;
+        }
+    }
+
+    .navbar-nav {
+        align-items: center;
+
+        a {
+            @include styleText($fs-1,$fw-1,$test-color-1)
+        }
+
+        .nav-style {
+            padding: 0 50px 0 0 !important;
+        }
+
+        button {
+            margin: 8px;
+        }
+
+        ul {
+            margin-bottom: 0;
+
+            li {
+                list-style: none;
+                margin-left: 10px;
+            }
+        }
+    }
+
+}
