@@ -1,0 +1,61 @@
+footer{
+    background-image: url('/bc39_tabula/img/footer_background.jpg');
+    background-position: center;
+    background-size: cover;
+    .footer_content{
+        padding: 120px 0;
+
+        .footer-col{
+            h1{
+                @include styleText(24px,$fw-2,$test-color-2);
+                margin-bottom: 30px
+            }
+            ul{
+                li{
+                    list-style: none;
+                    @include styleText($fs-1,$fw-2,$test-color-2);
+                    margin-bottom: 15px;
+                    i{  
+                        margin-right: 11px;
+                    }
+                }
+            }
+            .footer-input{
+                input{
+                    background-color: transparent;
+                    padding: 15px;
+                    border: 1px solid #ffffff1a;
+                    transition: all 0.5s;
+                    border-radius: 50px;
+                    @include styleText(15px,$fw-2,$test-color-2);
+                    &::placeholder{
+                        @include styleText(15px,$fw-2,$test-color-2);
+                    }
+                    &:focus{
+                        border: 1px solid rgba(255,255,255,1);
+                        box-shadow: none;
+                    }
+                    margin-bottom: 7.5px;
+                   
+                }
+                .footer-btn{
+                    width: 100% !important;
+                    background-color: $bg-2;
+                    @include styleText(15px,$fw-2,$test-color-1);
+                    &:hover{
+              
+                        span{
+                            @include styleText(15px,$fw-2,$test-color-2)
+                        }
+                        &::before{
+                            background-color: #aa017e;
+                            border: 1px solid $test-color-2;
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+
+}

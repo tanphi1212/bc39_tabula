@@ -250,4 +250,75 @@
 }
 #course .course-bg img {
   width: 100%;
+}
+
+footer {
+  background-image: url("/bc39_tabula/img/footer_background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+footer .footer_content {
+  padding: 120px 0;
+}
+footer .footer_content .footer-col h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 30px;
+}
+footer .footer_content .footer-col ul li {
+  list-style: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 15px;
+}
+footer .footer_content .footer-col ul li i {
+  margin-right: 11px;
+}
+footer .footer_content .footer-col .footer-input input {
+  background-color: transparent;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  transition: all 0.5s;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 7.5px;
+}
+footer .footer_content .footer-col .footer-input input::-moz-placeholder {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+footer .footer_content .footer-col .footer-input input:-ms-input-placeholder {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+footer .footer_content .footer-col .footer-input input::placeholder {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+footer .footer_content .footer-col .footer-input input:focus {
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: none;
+}
+footer .footer_content .footer-col .footer-input .footer-btn {
+  width: 100% !important;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  color: #181818;
+}
+footer .footer_content .footer-col .footer-input .footer-btn:hover span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+footer .footer_content .footer-col .footer-input .footer-btn:hover::before {
+  background-color: #aa017e;
+  border: 1px solid #fff;
 }/*# sourceMappingURL=style.css.map */
